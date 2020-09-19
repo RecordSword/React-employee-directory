@@ -1,14 +1,9 @@
+  
 import React from "react";
+import EmployeeDirectory from "./components/EmployeeDirectory/EmployeeDirectory";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="jumotron">
-        Staff Directory
-      </header>
-      <EmployeeCard />
-    </div>
-  );
+  return <EmployeeDirectory />;
 }
 
 export default App;
