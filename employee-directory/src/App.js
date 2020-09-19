@@ -1,9 +1,19 @@
-  
 import React from "react";
-import EmployeeDirectory from "./components/EmployeeDirectory/EmployeeDirectory";
+import Main from "./components/Main";
+import Wrapper from "./components/Wrapper";
+import Header from "./components/Header";
+import "./App.css";
 
 function App() {
-  return <EmployeeDirectory />;
+  return (
+    <div className="App">
+      <p></p>
+      <Wrapper>
+        <Header />
+        <Main />
+      </Wrapper>
+    </div>
+  );
 }
 
 export default App;
